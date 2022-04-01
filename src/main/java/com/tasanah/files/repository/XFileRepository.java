@@ -1,10 +1,11 @@
-package com.hackerrank.files.repository;
+package com.tasanah.files.repository;
 
-import com.hackerrank.files.model.XFile;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+
+import com.tasanah.files.model.XFile;
 
 @Repository
 public interface XFileRepository extends JpaRepository<XFile, Long> {
