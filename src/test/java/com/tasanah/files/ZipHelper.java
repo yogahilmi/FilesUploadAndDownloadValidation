@@ -1,4 +1,4 @@
-package com.hackerrank.files;
+package com.tasanah.files;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

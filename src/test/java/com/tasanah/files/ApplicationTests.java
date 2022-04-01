@@ -1,4 +1,4 @@
-package com.hackerrank.files;
+package com.tasanah.files;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
