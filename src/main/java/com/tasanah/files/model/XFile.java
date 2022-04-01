@@ -18,7 +18,7 @@ public class XFile {
 	 @Lob
 	 private byte[] file;
 
-	 public String getFileName() {
+	public String getFileName() {
 		return fileName;
 	 }
 

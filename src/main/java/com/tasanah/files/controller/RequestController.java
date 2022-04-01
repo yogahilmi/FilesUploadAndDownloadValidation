@@ -63,7 +63,7 @@ public class RequestController {
 	
 	@GetMapping("/downloader")
 	public ResponseEntity<?> downloadFile(@RequestParam("fileGroup")  String fileGroup, HttpServletResponse response) {
-		
+
 		List<XFile> listXFiles = filerepo.findByFileGroup(fileGroup);
 		System.out.println(listXFiles);
 		if(listXFiles != null && !listXFiles.isEmpty()) {

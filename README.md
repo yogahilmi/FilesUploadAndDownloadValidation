@@ -40,12 +40,10 @@ Required API endpoints to be exposed
 * if there is only one file then return that single file like `fileName` without zipping with status code 200.
 * if there is no any files under that `fileGroup` then return 404 status code.
 
-Your task is to complete the given project so that it passes all the test cases when running the provided unit tests. Required model class `XFile` for file has been already provided. You just need to implement the 2 endpoints in the controller class.
-
 ## Commands
 - run: 
 ```bash
-mvn clean package; java -jar target/project_jar-1.0.jar
+mvn clean package; java -jar target/FilesUploadDownloadApi-1.0.jar
 ```
 - install: 
 ```bash
